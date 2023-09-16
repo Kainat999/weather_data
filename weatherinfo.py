@@ -30,7 +30,7 @@ def main():
         data = json.load(f)
         cities = data["cities"]
 
-    api_key = "6dee1cebfab04c0f01810073f2ac480a"  # Replace with your OpenWeatherMap API key
+    api_key = "6dee1cebfab04c0f01810073f2ac480a"  
 
     print("Cities:")
     for city in cities:
